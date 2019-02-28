@@ -3,10 +3,10 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
-public class GussingGame {
+public class DhvaniTest {
 
 	public static void main(String[] args) {
-		int rangeLimit = 100;
+		int rangeLimit = 100000;
 		Random randomNumber = new Random();
 		int cValue = randomNumber.nextInt(rangeLimit);
 		Scanner sc = new Scanner(System.in);
